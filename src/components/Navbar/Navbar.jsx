@@ -11,6 +11,7 @@ const Navbar = () => {
         <li>Features</li>
         <li>Pricing</li>
         <li>Blog</li>
+        <li>About Us</li>
       </ul>
       <div className="nav-right">
         <select>
@@ -19,6 +20,7 @@ const Navbar = () => {
           <option value="inr">INR</option>
         </select>
         <button>sign up <img src={arrow_icon} alt=""/></button>
+        <button>Sign in <img src={arrow_icon} alt=""/></button>
       </div>
     </div>
   )
